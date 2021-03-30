@@ -32,5 +32,5 @@ Segue abaixo uma descrição geral do foco de cada uma das etapas apresentadas:
 Ainda na mesma imagem, temos a representação de uma etapa que é transversal a todo o processo de regulação, denominada “Configuração”. Com o intuito de otimizar o desenvolvimento da nova ferramenta, essa ação será trabalhada separadamente em cada uma das etapas citadas anteriormente.
 
 ## 4	CONSIDERAÇÕES FINAIS
-As informações apresentadas neste documento, tem como objetivo propor através das etapas identificadas, um roteiro para execução das fases de levantamento, definição e construção de serviços e o sistema da nova versão do SISREG.
+As informações apresentadas neste documento, tem como objetivo propor através das etapas identificadas, um roteiro para execução das fases de levantamento, definição e construção de serviços.
 
