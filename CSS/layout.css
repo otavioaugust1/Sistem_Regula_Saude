@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 :root{
     --main-color: #43b19e;
     --color-darj: #1d2231;
@@ -6,6 +8,7 @@
     --color-wrapper: #ccc;
     --color-header: #222;
     --secondary-color: #fff;
+    --trird-color: #f1f5f9;
 }
 
 *{
@@ -24,6 +27,7 @@
     top: 0;
     height: 100%;
     background: var(--main-color);
+    z-index: 100;
 }
 
 .sidebar-brand{
@@ -62,7 +66,7 @@
     border-radius: 30px 0px 0px 30px;
 }
 
-.sidebar-menu a span first-child {
+.sidebar-menu a span:first-child {
     font-size: 1.5rem;
     padding-right: 1rem;
 }
@@ -76,6 +80,11 @@ header {
     justify-content: space-between;
     padding: 1rem 1.5rem;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    position: fixed;
+    left: 345px;
+    width: calc(100% - 345px);
+    top: 0;
+    z-index: 100;
 }
 
 header h2{
@@ -128,4 +137,36 @@ header label span {
     color: var(--text-grey);
     margin-top: -10px !important;
 }
+
+main{
+    margin-top: 80px;
+    padding: 2rem 1.5rem;
+    background: var(--trird-color);
+    min-height: calc(100vh - 90px);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.card-single {
+    display: flex;
+    justify-content: space-between;
+    background: var(--text-white);
+    padding: 2rem;
+    border-radius: 2px;
+}
+
+.card-single span:last-child {
+    color: var(--text-grey);      
+}
+
+.card-single span:first-child {
+    font-size: 3rem;
+    
+}
+
 
